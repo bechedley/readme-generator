@@ -1,10 +1,25 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) {
+
+    if (license === "MIT" || license === "Apache 2.0" || license === "GPLv3" || license === "BSD 3"){
+    `![GitHub](https://img.shields.io/badge/license-${license}-green?style=plastic)`;
+    }
+    else {
+        ``;
+    }
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
+    
+    if (license === "MIT" || license === "Apache 2.0" || license === "GPLv3" || license === "BSD 3"){
+        `View license: (/LICENSE)`;
+        }
+        else {
+            ``;
+        }
 
 }
 
@@ -12,20 +27,12 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
     
-    if licence === "MIT" {
-        `Licensed under the standard MIT license. Please refer to the license in the repo for more information.`
+    if (license === "MIT" || license === "Apache 2.0" || license === "GPLv3" || license === "BSD 3"){
+    `Licensed under the standard ${license} license. Please refer to the license in the repo for more information.`;
     }
-    if licence === "Apache 2.0" {
-        `Licensed under the standard Apache 2.0 license. Please refer to the license in the repo for more information.`
-    }
-    if licence === "GPLv3" {
-        `Licensed under the standard GNU GPLv3 license. Please refer to the license in the repo for more information.`
-    }
-    if licence === "BSD 3" {
-        `Licensed under the standard BSD 3 license. Please refer to the license in the repo for more information.`
-    }
-    if licence === "None" {
-        ``
+
+    else {
+        ``;
     }
 }
 
