@@ -42,7 +42,7 @@ const questions = [
         type: 'input',
         name: 'tests',
         message: 'What command is needed to run tests?',
-        default: 'Use command "npm run test" to execute available tests',
+        default: 'Use command `npm run test` to execute available tests',
       },
       {
         type: 'input',

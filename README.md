@@ -2,9 +2,9 @@
 
   ## Description
 
-  This project was created to test the README functionality
+  This project was created to test the functionality of the README generator
 
-  ![GitHub](https://img.shields.io/badge/license-MIT-green?style=plastic)
+  
 
   ## Table of Contents
 
@@ -25,9 +25,9 @@
 
   ## License
 
-  Licensed under the standard MIT license. Please refer to the license in the repo for more information.
+  
 
-  View license: (./LICENSE)
+  
 
   ## Contributing
 
@@ -35,7 +35,7 @@
 
   ## Tests
 
-  Use command "npm run test" to execute available tests
+  Use command `npm run test` to execute available tests
 
   ## Questions
 
@@ -43,6 +43,6 @@
   
   GitHub: (https://github.com/username)
   
-  Email address: email@email.com
+  Email address: [Contact Us](mailto:email@email.com.au)
   
   
