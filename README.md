@@ -4,7 +4,7 @@
 
   na
 
-  ![GitHub](https://img.shields.io/badge/license-GPLv3-green?style=plastic)
+  ![GitHub](https://img.shields.io/badge/license-BSD3-green?style=plastic)
 
   ## Table of Contents
 
@@ -25,7 +25,7 @@
 
   ## License
 
-  Licensed under the standard GPL 3.0 license. Please refer to the license in the repo for more information.
+  Licensed under the standard BSD 3 license. Please refer to the license in the repo for more information.
 
   View license: [LICENSE](./LICENSE)
 
