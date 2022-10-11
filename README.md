@@ -2,9 +2,9 @@
 
   ## Description
 
-  This project was created to test the functionality of the README generator
+  This project was created to test the README generator
 
-  
+  ![GitHub](https://img.shields.io/badge/license-Apache 2.0-green?style=plastic)
 
   ## Table of Contents
 
@@ -25,9 +25,9 @@
 
   ## License
 
-  
+  Licensed under the standard Apache 2.0 license. Please refer to the license in the repo for more information.
 
-  
+  View license: [LICENSE](./LICENSE)
 
   ## Contributing
 
@@ -43,6 +43,6 @@
   
   GitHub: (https://github.com/username)
   
-  Email address: [Contact Us](mailto:email@email.com.au)
+  [Send an email](mailto:email@email.com)
   
   
