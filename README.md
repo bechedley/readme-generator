@@ -1,48 +1,38 @@
-# Test README Generator
+# Week Nine Challenge: README.md Generator
 
-  ## Description
+## Description
 
-  This project was created to demonstrate the functionality of the README Generator app
+This repository is where I refactor starter code to create an app to generate a README.md file based on user prompts.
 
-  ![GitHub](https://img.shields.io/badge/license-MIT-green?style=plastic)
+## Installation
 
-  ## Table of Contents
+N/A
 
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [License](#license)
-  - [Contributing](#contributing)
-  - [Tests](#tests)
-  - [Questions](#questions)
+## Usage
 
-  ## Installation
+Run node.js to initiate the README generator. Answer the user prompts to generate the information to fill out the README.md file.
 
-  N/A
+Link to walkthrough video: ()
 
-  ## Usage
+![Screenshot of VS Code showing prompt questions](/week-9/readme-generator/assets/images/readme-screenshot.jpg)
 
-  Initiate the app via node.js
+## Credits
 
-  ## License
+Starter code provided by Monash University.
 
-  Licensed under the standard MIT license. Please refer to the license in the repo for more information.
+The following resources were referenced to ensure best practice and adherence to appropriate conventions:
 
-  View license: [LICENSE](./LICENSE)
+License Badges by Shields.IO (https://shields.io/category/license)
 
-  ## Contributing
+YouTube Tutorial: GitHub: How to add Shields | Easy, visible info on your projects by TroubleChute (https://www.youtube.com/watch?v=Dl-ekLb4quE&t=347s)
 
-  For all contributions, please use GitHub to fork the repository to submit suggested updates or changes via feature branches
+Inquire documentation via npm: (https://www.npmjs.com/package/inquirer) 
 
-  ## Tests
+Professional README Guide by The Full Stack Blog (https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 
-  Use command `npm run test` to execute available tests
+Guide on Mastering Markdown by Github (https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
-  ## Questions
 
-  For any additional questions, please use the below contact details to get in touch via GitHub or email.
-  
-  GitHub: (https://github.com/username)
-  
-  [Send an email](mailto:email@email.com)
-  
-  
+## License
+
+Licensed under the standard MIT license. Please refer to the license in the repo for more information.
