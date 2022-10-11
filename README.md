@@ -1,46 +1,32 @@
-# Test
+# Week Nine Challenge: README.md Generator
 
-  ## Description
+## Description
 
-  This project was created to test the README generator
+This repository is where I refactor starter code to create an app to generate a README.md file based on user prompts.
 
-  ![GitHub](https://img.shields.io/badge/license-MIT-green?style=plastic)
+## Installation
 
-  ## Table of Contents
+N/A
 
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [License](#license)
-  - [Contributing](#contributing)
-  - [Tests](#tests)
-  - [Questions](#questions)
+## Usage
 
-  ## Installation
+Run node.js to initiate the README generator. Answer the user prompts to generate the information to fill out the README.md file.
 
-  N/A
+## Credits
 
-  ## Usage
+The following resources were referenced to ensure best practice and adherence to appropriate conventions:
 
-  Initiate via node.js
+License Badges by Shields.IO (https://shields.io/category/license)
 
-  ## License
+YouTube Tutorial: GitHub: How to add Shields | Easy, visible info on your projects by TroubleChute (https://www.youtube.com/watch?v=Dl-ekLb4quE&t=347s)
 
-  Licensed under the standard MIT license. Please refer to the license in the repo for more information.
+Inquire documentation via npm: (https://www.npmjs.com/package/inquirer) 
 
-  View license: (/LICENSE)
+Professional README Guide by The Full Stack Blog (https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 
-  ## Contributing
+Guide on Mastering Markdown by Github (https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
-  undefined
 
-  ## Tests
+## License
 
-  Use command "npm run test" to execute available tests
-
-  ## Questions
-
-  For any additional questions, please use the below contact details to get in touch via GitHub or email.
-  GitHub: (https://github.com/username)
-  Email address: email@email.com
-  
-  
+Licensed under the standard MIT license. Please refer to the license in the repo for more information.

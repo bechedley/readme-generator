@@ -2,9 +2,22 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
 
-    if (license === "MIT" || license === "Apache 2.0" || license === "GPL 3.0" || license === "BSD 3"){
-        return `![GitHub](https://img.shields.io/badge/license-${license}-green?style=plastic)`;
+    if (license === "MIT"){
+        return `![GitHub](https://img.shields.io/badge/license-MIT-green?style=plastic)`;
     }
+
+    if (license === "Apache 2.0"){
+        return `![GitHub](https://img.shields.io/badge/license-Apache2-green?style=plastic)`;
+    }
+
+    if (license === "GPL 3.0"){
+        return `![GitHub](https://img.shields.io/badge/license-GPLv3-green?style=plastic)`;
+    }
+
+    if (license === "BSD 3"){
+        return `![GitHub](https://img.shields.io/badge/license-BSD3-green?style=plastic)`;
+    }
+
     else {
         return ``;
     }
@@ -15,7 +28,7 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
     
     if (license === "MIT" || license === "Apache 2.0" || license === "GPL 3.0" || license === "BSD 3"){
-        return `View license: (/LICENSE)`;
+        return `View license: [LICENSE](./LICENSE)`;
     }
     else {
         return ``;
@@ -81,8 +94,10 @@ function generateMarkdown(data) {
   ## Questions
 
   For any additional questions, please use the below contact details to get in touch via GitHub or email.
+  
   GitHub: (https://github.com/${data.github})
-  Email address: ${data.email}
+  
+  [Send an email](mailto:${data.email})
   
   `;
 }
