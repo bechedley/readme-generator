@@ -13,7 +13,7 @@ const questions = [
       {
         type: 'input',
         name: 'description',
-        message: 'What is your project for? Describe the purpose and motivation behind your project',
+        message: 'Why was your project created? Describe the purpose and motivation behind your project',
       },
       {
         type: 'input',
@@ -34,7 +34,7 @@ const questions = [
       },
       {
         type: 'input',
-        name: 'contributing',
+        name: 'contribution',
         message: 'How can people contribute to your project?',
         default: 'For all contributions, please use GitHub to fork the repository to submit suggested updates or changes via feature branches',
       },

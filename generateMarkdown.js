@@ -15,7 +15,7 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
     
     if (license === "MIT" || license === "Apache 2.0" || license === "GPL 3.0" || license === "BSD 3"){
-        return `View license: (/LICENSE)`;
+        return `View license: (./LICENSE)`;
     }
     else {
         return ``;
@@ -81,7 +81,9 @@ function generateMarkdown(data) {
   ## Questions
 
   For any additional questions, please use the below contact details to get in touch via GitHub or email.
+  
   GitHub: (https://github.com/${data.github})
+  
   Email address: ${data.email}
   
   `;
