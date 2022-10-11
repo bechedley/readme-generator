@@ -3,10 +3,10 @@
 function renderLicenseBadge(license) {
 
     if (license === "MIT" || license === "Apache 2.0" || license === "GPLv3" || license === "BSD 3"){
-    `![GitHub](https://img.shields.io/badge/license-${license}-green?style=plastic)`;
+        return `![GitHub](https://img.shields.io/badge/license-${license}-green?style=plastic)`;
     }
     else {
-        ``;
+        return ``;
     }
 }
 
@@ -15,11 +15,11 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
     
     if (license === "MIT" || license === "Apache 2.0" || license === "GPLv3" || license === "BSD 3"){
-        `View license: (/LICENSE)`;
-        }
-        else {
-            ``;
-        }
+        return `View license: (/LICENSE)`;
+    }
+    else {
+        return ``;
+    }
 
 }
 
@@ -28,11 +28,12 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
     
     if (license === "MIT" || license === "Apache 2.0" || license === "GPLv3" || license === "BSD 3"){
-    `Licensed under the standard ${license} license. Please refer to the license in the repo for more information.`;
+        return `Licensed under the standard ${license} license. Please refer to the license in the repo for more information.`;
     }
 
     else {
-        ``;
+
+        return ``;
     }
 }
 
@@ -40,7 +41,50 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
 
-`;
+  ## Description
+
+  ${data.description}
+
+  ${renderLicenseBadge(data.license)}
+
+  ## Table of Contents
+
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
+
+  ## Installation
+
+  ${data.installation}
+
+  ## Usage
+
+  ${data.usage}
+
+  ## License
+
+  ${renderLicenseSection(data.license)}
+
+  ${renderLicenseLink(data.license)}
+
+  ## Contributing
+
+  ${data.contribution}
+
+  ## Tests
+
+  ${data.tests}
+
+  ## Questions
+
+  For any additional questions, please use the below contact details to get in touch via GitHub or email.
+  GitHub: (https://github.com/${data.github})
+  Email address: ${data.email}
+  
+  `;
 }
 
 module.exports = generateMarkdown;
