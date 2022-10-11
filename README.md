@@ -2,7 +2,7 @@
 
   ## Description
 
-  This project was created to test functionality of the README Generator application
+  This project was created to test the functionality of the README Generator application
 
   ![GitHub](https://img.shields.io/badge/license-MIT-green?style=plastic)
 
