@@ -1,10 +1,10 @@
-# Test
+# test
 
   ## Description
 
-  NA
+  na
 
-  ![GitHub](https://img.shields.io/badge/license-Apache-2.0-green?style=plastic)
+  ![GitHub](https://img.shields.io/badge/license-Apache2-green?style=plastic)
 
   ## Table of Contents
 
@@ -21,7 +21,7 @@
 
   ## Usage
 
-  NA
+  na
 
   ## License
 

@@ -7,15 +7,15 @@ function renderLicenseBadge(license) {
     }
 
     if (license === "Apache 2.0"){
-        return `![GitHub](https://img.shields.io/badge/license-Apache-2.0-green?style=plastic)`;
+        return `![GitHub](https://img.shields.io/badge/license-Apache2-green?style=plastic)`;
     }
 
     if (license === "GPL 3.0"){
-        return `![GitHub](https://img.shields.io/badge/license-GPL-3.0-green?style=plastic)`;
+        return `![GitHub](https://img.shields.io/badge/license-GPLv3-green?style=plastic)`;
     }
 
     if (license === "BSD 3"){
-        return `![GitHub](https://img.shields.io/badge/license-BSD-3-green?style=plastic)`;
+        return `![GitHub](https://img.shields.io/badge/license-BSD3-green?style=plastic)`;
     }
 
     else {
