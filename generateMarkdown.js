@@ -2,9 +2,22 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
 
-    if (license === "MIT" || license === "Apache 2.0" || license === "GPL 3.0" || license === "BSD 3"){
-        return `![GitHub](https://img.shields.io/badge/license-${license}-green?style=plastic)`;
+    if (license === "MIT"){
+        return `![GitHub](https://img.shields.io/badge/license-MIT-green?style=plastic)`;
     }
+
+    if (license === "Apache 2.0"){
+        return `![GitHub](https://img.shields.io/badge/license-Apache-2.0-green?style=plastic)`;
+    }
+
+    if (license === "GPL 3.0"){
+        return `![GitHub](https://img.shields.io/badge/license-GPL-3.0-green?style=plastic)`;
+    }
+
+    if (license === "BSD 3"){
+        return `![GitHub](https://img.shields.io/badge/license-BSD-3-green?style=plastic)`;
+    }
+
     else {
         return ``;
     }

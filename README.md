@@ -2,9 +2,9 @@
 
   ## Description
 
-  This project was created to test the README generator
+  NA
 
-  ![GitHub](https://img.shields.io/badge/license-Apache 2.0-green?style=plastic)
+  ![GitHub](https://img.shields.io/badge/license-MIT-green?style=plastic)
 
   ## Table of Contents
 
@@ -21,11 +21,11 @@
 
   ## Usage
 
-  Initiate via node.js
+  NA
 
   ## License
 
-  Licensed under the standard Apache 2.0 license. Please refer to the license in the repo for more information.
+  Licensed under the standard MIT license. Please refer to the license in the repo for more information.
 
   View license: [LICENSE](./LICENSE)
 
