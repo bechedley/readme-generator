@@ -1,38 +1,48 @@
-# Week Nine Challenge: README.md Generator
+# README Generator Test
 
-## Description
+  ## Description
 
-This repository is where I refactor starter code to create an app to generate a README.md file based on user prompts.
+  This project was created to test functionality of the README Generator application
 
-## Installation
+  ![GitHub](https://img.shields.io/badge/license-MIT-green?style=plastic)
 
-N/A
+  ## Table of Contents
 
-## Usage
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
 
-Run node.js to initiate the README generator. Answer the user prompts to generate the information to fill out the README.md file.
+  ## Installation
 
-Link to walkthrough video: ()
+  N/A
 
-![Screenshot of VS Code showing prompt questions](/week-9/readme-generator/assets/images/readme-screenshot.jpg)
+  ## Usage
 
-## Credits
+  Initiate via node.js
 
-Starter code provided by Monash University.
+  ## License
 
-The following resources were referenced to ensure best practice and adherence to appropriate conventions:
+  Licensed under the standard MIT license. Please refer to the license in the repo for more information.
 
-License Badges by Shields.IO (https://shields.io/category/license)
+  View license: [LICENSE](./LICENSE)
 
-YouTube Tutorial: GitHub: How to add Shields | Easy, visible info on your projects by TroubleChute (https://www.youtube.com/watch?v=Dl-ekLb4quE&t=347s)
+  ## Contributing
 
-Inquire documentation via npm: (https://www.npmjs.com/package/inquirer) 
+  For all contributions, please use GitHub to fork the repository to submit suggested updates or changes via feature branches
 
-Professional README Guide by The Full Stack Blog (https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+  ## Tests
 
-Guide on Mastering Markdown by Github (https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+  Use command `npm run test` to execute available tests
 
+  ## Questions
 
-## License
-
-Licensed under the standard MIT license. Please refer to the license in the repo for more information.
+  For any additional questions, please use the below contact details to get in touch via GitHub or email.
+  
+  GitHub: (https://github.com/username)
+  
+  [Send an email](mailto:email@email.com)
+  
+  
