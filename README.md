@@ -1,28 +1,46 @@
-# Week Nine Challenge: README.md Generator
+# Test
 
-## Description
+  ## Description
 
-This repository is where I refactor starter code to create an app to generate a README.md file based on user prompts.
+  This project was created to test the README generator
 
-## Installation
+  ![GitHub](https://img.shields.io/badge/license-MIT-green?style=plastic)
 
-N/A
+  ## Table of Contents
 
-## Usage
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
 
-Run node.js to initiate the README generator. Answer the user prompts to generate the information to fill out the README.md file.
+  ## Installation
 
-## Credits
+  N/A
 
-The following resources were referenced to ensure best practice and adherence to appropriate conventions:
+  ## Usage
 
-License Badges by Shields.IO (https://shields.io/category/license)
+  Initiate via node.js
 
-YouTube Tutorial: GitHub: How to add Shields | Easy, visible info on your projects by TroubleChute (https://www.youtube.com/watch?v=Dl-ekLb4quE&t=347s)
+  ## License
 
-Inquire documentation via npm: (https://www.npmjs.com/package/inquirer) 
+  Licensed under the standard MIT license. Please refer to the license in the repo for more information.
 
+  View license: (/LICENSE)
 
-## License
+  ## Contributing
 
-Licensed under the standard MIT license. Please refer to the license in the repo for more information.
+  undefined
+
+  ## Tests
+
+  Use command "npm run test" to execute available tests
+
+  ## Questions
+
+  For any additional questions, please use the below contact details to get in touch via GitHub or email.
+  GitHub: (https://github.com/username)
+  Email address: email@email.com
+  
+  
