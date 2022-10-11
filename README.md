@@ -14,7 +14,7 @@ Run node.js to initiate the README generator. Answer the user prompts to generat
 
 Link to walkthrough video: (https://drive.google.com/file/d/164daWGCaUNEGyLmHyF_bPnhuY2wwE_qB/view)
 
-![Screenshot of VS Code showing prompt questions](/week-9/readme-generator/assets/images/readme-screenshot.jpg)
+![Screenshot of VS Code showing prompt questions](/assets/images/readme-screenshot.jpg)
 
 ## Credits
 
